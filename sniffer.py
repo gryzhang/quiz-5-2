@@ -31,8 +31,8 @@ def send_pkt(number, interval):
 
 def print_pkt(pkt):
     """ Print Source IP, Destination IP, Protocol, TTL"""
-   # TODO
-   pass
+    # TODO
+    pass
 
 
 def print_menu():
