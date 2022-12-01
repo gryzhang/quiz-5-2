@@ -8,9 +8,9 @@ Write a Python program that send packets or listen to traffic according to some 
 
 ## Options to implement
 ### 1. Create and send packets
-Create and send the following multilayer packet using the function `send_pkt`.
+Create and send the following multilayer packet using the function `send_pkt()`.
 
-The `send_pkt` function takes as input:
+The `send_pkt()` function takes as input:
 - The number of packets to be sent
 - The number of seconds between each packet.
 
@@ -34,17 +34,17 @@ The `send_pkt` function takes as input:
 - Sniff all traffic on your interface
 - Show a developed view of the packets sniffed
 
-### 3. Listen to ping command to the address 8.8.4.4
+### 3. Listen to ping command to the address `8.8.4.4`
 - Sniff all packets from a `ping` command to the address `8.8.4.4`
-- Use the function `print_pkt` to print a information about the packet sniffed
+- Use the function `print_pkt()` to print a information about the packet sniffed
 
 ### 4. Listen to telnet command executed from localhost
 - Sniff all packets from a telnet command executed from localhost
-- Use the function `print_pkt` to print a information about the packet sniffed
+- Use the function `print_pkt()` to print a information about the packet sniffed
 
 
 ## Important notes:
-1. You can test your programs using docker container. (Refer to the setup in PA5)
+1. You can test your programs using docker containers. (Refer to the setup in PA5)
 1. Add your interface ID in the sniff function. (Use ifconfig to find you interface ID)
 1. Usage: `Usage: python3 sniffer.py`
 1. Your program will be manually tested for correctness with additional test cases.
