@@ -24,7 +24,7 @@ def main():
         else:
             print(f"\nInvalid entry\n")
 
-def send_pkt(count, interval):
+def send_pkt(number, interval):
     """Send a custom packet"""
     # TODO
     pass

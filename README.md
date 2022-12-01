@@ -16,8 +16,8 @@ The `send_pkt()` function takes as input:
 
 **Construct the packet as follow:**
 #### Ethernet
-- Ethernet destination MAC address: `00:02:15:37:a2:44`
 - Ethernet source MAC address: `00:ae:f3:52:aa:d1`
+- Ethernet destination MAC address: `00:02:15:37:a2:44`
 
 #### IP
 - Source address: `192.168.10.4`
