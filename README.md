@@ -15,20 +15,14 @@ The `send_pkt()` function takes as input:
 - The number of seconds between each packet.
 
 **Construct the packet as follow:**
-#### Ethernet
-- Ethernet source MAC address: `00:ae:f3:52:aa:d1`
-- Ethernet destination MAC address: `00:02:15:37:a2:44`
-
 #### IP
 - Source address: `192.168.10.4`
 - Destination address: `192.168.6.12`
 - Protocol: `ICMP`
+- TTL: 32
 
 #### ICMP
-- ICMP type: `echo-request`
-
-#### Load
-- Payload: `CSCE 313 secret message`
+- ICMP type: `echo-reply`
 
 ### 2. Listen to all traffic and show all
 - Sniff all traffic on your interface
