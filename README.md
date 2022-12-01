@@ -38,13 +38,13 @@ The `send_pkt()` function takes as input:
 - Sniff all packets from a `ping` command to the address `8.8.4.4`
 - Use the function `print_pkt()` to print a information about the packet sniffed
 
-### 4. Listen to telnet command executed from localhost
+### 4. Listen to telnet command executed from `localhost`
 - Sniff all packets from a telnet command executed from localhost
 - Use the function `print_pkt()` to print a information about the packet sniffed
 
 
 ## Important notes:
-1. You can test your programs using docker containers. (Refer to the setup in PA5)
+1. For testing, you can run your programs inside docker containers. (Refer to the setup in PA5)
 1. Add your interface ID in the sniff function. (Use ifconfig to find you interface ID)
 1. Usage: `Usage: python3 sniffer.py`
 1. Your program will be manually tested for correctness with additional test cases.
