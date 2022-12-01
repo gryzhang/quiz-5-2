@@ -8,7 +8,7 @@ Write a Python program that send packets or listen to traffic according to some 
 
 ## Options to implement
 ### 1. Create and send packets
-Create and send the following multilayer packet.
+Create and send the following multilayer packet using the function `send_pkt`.
 
 The `send_pkt` function takes as input:
 - The number of packets to be sent
